@@ -3,8 +3,16 @@
 
 
 1. Mở X-Frame-Options trên zabbix cho phép được nhúng dashboard hoặc map trên site khác
+
+
+
 Trên Zabbix server:
+
+
+
 Apache: sửa file cấu hình 
+
+
 
 > vi /etc/httpd/conf.d/zabbix.conf
 
