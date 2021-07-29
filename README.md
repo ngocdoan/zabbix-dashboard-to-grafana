@@ -28,8 +28,15 @@ Khởi động lại Apache
 > systemctl restart httpd
 
 2. Bật user Guest trong Zabbix
-3. Set quyền đọc dữ liệu cho Guest
-4. Set Dashboard hoặc Map sang chế độ Public
+
+Administration >> User >> Guest >> Delete "Disabled" trong Group field
+
+4. Set quyền đọc dữ liệu cho Guest
+
+Administration >> User groups >> Guests >> Permission >> Select >> Select all >> Update
+5. Set Dashboard hoặc Map sang chế độ Public
+- Dashboard: Mở dashboard cần share >> Menu 3 dấu gạch "-" >> Sharing >> Public >> Update
+- Maps: Properties >> Sharing >> Public >> Update 
 
 ## Grafana
 
