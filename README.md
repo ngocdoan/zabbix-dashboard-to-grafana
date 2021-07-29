@@ -34,6 +34,8 @@ Khởi động lại Apache
 ## Grafana
 
 1. Cấu hình Grafana cho phép iframe website
+
+
 Sửa file 
 
 > vi /etc/grafana/grafana.ini
