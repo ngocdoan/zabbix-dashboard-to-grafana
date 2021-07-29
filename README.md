@@ -41,6 +41,9 @@ Khởi động lại Grafana
 2. Nhúng iframe zabbix trong grafana
 - Add panel
 - Chọn loại Text Panel >> Html
+
+
+
 Nhúng đoạn code sau:
 ````<iframe src="http://link.here" title="Title here" style="width:100%; height:100%; padding:0; margin:0; border:none;"></iframe>````
 
